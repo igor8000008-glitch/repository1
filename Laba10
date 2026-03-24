@@ -21,6 +21,7 @@ namespace WindowsFormsApp6
             try
             {
                 double Xmin = double.Parse(textBox1.Text);
+                double Xmax = double.Parse(textBox2.Text);
                 double Step = double.Parse(textBox3.Text);
                 int count = (int)Math.Ceiling((Xmax - Xmin) / Step) + 1;
                 double[] x = new double[count];//отсутствует знак "="
