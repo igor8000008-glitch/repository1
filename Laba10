@@ -32,6 +32,7 @@ namespace WindowsFormsApp6
                     x[i] = Xmin + Step * i;
                     y1[i] = Math.Sin(x[i]);
                     y2[i] = Math.Cos(x[i]);
+
                 }
                 chart1.ChartAreas[0].AxisX.Minimum = Xmin;
                 chart1.ChartAreas[0].AxisX.Maximum = Xmax;
